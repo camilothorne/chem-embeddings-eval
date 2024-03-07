@@ -1,0 +1,27 @@
+\begin{tabular}{llllllll}
+\toprule
+{} & RDKit & CheMU\_W2V & PubMed\_W2V & Drug\_W2V & Mat2Vec\_W2V & CheMU\_ELMo & PubMed\_ELMo \\
+\midrule
+RDKit       &  0.00 &     -4.66 &      -0.43 &    -1.69 &       -6.25 &      -5.57 &       -5.04 \\
+CheMU\_W2V   &  4.66 &      0.00 &       4.64 &     3.98 &       -2.10 &      -1.14 &       -0.52 \\
+PubMed\_W2V  &  0.43 &     -4.64 &       0.00 &    -1.35 &       -6.35 &      -5.63 &       -5.05 \\
+Drug\_W2V    &  1.69 &     -3.98 &       1.35 &     0.00 &       -5.94 &      -5.13 &       -4.46 \\
+Mat2Vec\_W2V &  6.25 &      2.10 &       6.35 &     5.94 &        0.00 &       0.99 &        1.58 \\
+CheMU\_ELMo  &  5.57 &      1.14 &       5.63 &     5.13 &       -0.99 &       0.00 &        0.61 \\
+PubMed\_ELMo &  5.04 &      0.52 &       5.05 &     4.46 &       -1.58 &      -0.61 &        0.00 \\
+\bottomrule
+\end{tabular}
+
+\begin{tabular}{llllllll}
+\toprule
+{} & RDKit & CheMU\_W2V & PubMed\_W2V & Drug\_W2V & Mat2Vec\_W2V & CheMU\_ELMo & PubMed\_ELMo \\
+\midrule
+RDKit       &  1.00 &      0.00 &       0.67 &     0.09 &        0.00 &       0.00 &        0.00 \\
+CheMU\_W2V   &  0.00 &      1.00 &       0.00 &     0.00 &        0.04 &       0.25 &        0.60 \\
+PubMed\_W2V  &  0.67 &      0.00 &       1.00 &     0.18 &        0.00 &       0.00 &        0.00 \\
+Drug\_W2V    &  0.09 &      0.00 &       0.18 &     1.00 &        0.00 &       0.00 &        0.00 \\
+Mat2Vec\_W2V &  0.00 &      0.04 &       0.00 &     0.00 &        1.00 &       0.33 &        0.12 \\
+CheMU\_ELMo  &  0.00 &      0.25 &       0.00 &     0.00 &        0.33 &       1.00 &        0.54 \\
+PubMed\_ELMo &  0.00 &      0.60 &       0.00 &     0.00 &        0.12 &       0.54 &        1.00 \\
+\bottomrule
+\end{tabular}

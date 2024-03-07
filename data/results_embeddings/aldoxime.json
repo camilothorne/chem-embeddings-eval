@@ -1,0 +1,2472 @@
+{
+  "PC_Substances": [
+    {
+      "sid": {
+        "id": 8144340,
+        "version": 10
+      },
+      "source": {
+        "db": {
+          "name": "ChEBI",
+          "source_id": {
+            "str": "CHEBI:28465"
+          },
+          "date": {
+            "std": {
+              "year": 2015,
+              "month": 4,
+              "day": 23
+            }
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "Acetaldoxime",
+        "Aldoxime",
+        "CHEBI:28465",
+        "acetaldehyde oxime",
+        "ethanal oxime",
+        "ethylidenehydroxylamine"
+      ],
+      "xref": [
+        {
+          "regid": "CHEBI:28465"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "http://www.ebi.ac.uk/chebi/"
+        },
+        {
+          "sburl": "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28465"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "order": [
+              1,
+              2,
+              1,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    0.7146,
+                    0,
+                    0,
+                    -0.7145,
+                    0.7145
+                  ],
+                  "y": [
+                    1.2376,
+                    0.8251,
+                    0,
+                    -0.4125,
+                    -0.4125
+                  ],
+                  "style": {
+                    "annotation": [
+                      3
+                    ],
+                    "aid1": [
+                      3
+                    ],
+                    "aid2": [
+                      5
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 49854643,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "LeadScope",
+          "source_id": {
+            "str": "LS-437"
+          }
+        }
+      },
+      "synonyms": [
+        "(1E)-acetaldehyde oxime",
+        "AAO",
+        "AI3-52258",
+        "Acetaldehyde oxime",
+        "Acetaldehyde oxime [UN2332] [Flammable liquid]",
+        "Acetaldehyde, oxime",
+        "Acetaldoxime",
+        "Acetaldoxime, syn + anti",
+        "Aldoxime",
+        "BRN 1209252",
+        "CCRIS 1379",
+        "EINECS 203-479-6",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "HSDB 2662",
+        "Hydroiminoethane",
+        "LS-437",
+        "NSC 4974",
+        "UN2332",
+        "USAF AM-5"
+      ],
+      "xref": [
+        {
+          "regid": "LS-437"
+        },
+        {
+          "dburl": "http://www.leadscope.com"
+        },
+        {
+          "sburl": "http://www.leadscope.com/structure_search_results.php?ss_string=LS-437"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    1.875,
+                    0.375,
+                    -0.375,
+                    -1.875
+                  ],
+                  "y": [
+                    -0.65,
+                    -0.65,
+                    0.65,
+                    0.65
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 85165254,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "Biological Magnetic Resonance Data Bank (BMRB)",
+          "source_id": {
+            "str": "bmse000467"
+          },
+          "date": {
+            "std": {
+              "year": 2008,
+              "month": 2,
+              "day": 8
+            }
+          }
+        }
+      },
+      "synonyms": [
+        "(1E)-acetaldehyde oxime",
+        "(E)-CH3CH=NOH",
+        "00150_FLUKA",
+        "Acetaldehyde oxime",
+        "Acetaldehyde oxime [UN2332]  [Flammable liquid]",
+        "Acetaldehyde oxime, mixture of syn and anti",
+        "Acetaldehyde, oxime",
+        "Acetaldoxime",
+        "Aldoxime",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "Hydroiminoethane",
+        "acetaldehyde, oxime, (1E)-",
+        "bmse000467"
+      ],
+      "xref": [
+        {
+          "regid": "bmse000467"
+        },
+        {
+          "dburl": "http://www.bmrb.wisc.edu/metabolomics/"
+        },
+        {
+          "sburl": "http://www.bmrb.wisc.edu/metabolomics/mol_summary/index.php?molName=Acetaldehyde_oxime_mixture&id=bmse000467"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    4.5981,
+                    3.7321,
+                    2,
+                    2.866,
+                    2.31,
+                    1.4631,
+                    1.69,
+                    2.866,
+                    5.135
+                  ],
+                  "y": [
+                    0.06,
+                    0.56,
+                    0.56,
+                    0.06,
+                    1.0969,
+                    0.87,
+                    0.0231,
+                    -0.56,
+                    0.37
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 134972415,
+        "version": 5
+      },
+      "source": {
+        "db": {
+          "name": "ChemIDplus",
+          "source_id": {
+            "str": "0000107299"
+          }
+        }
+      },
+      "synonyms": [
+        "ME6U10SD7D",
+        "107-29-9",
+        "Acetaldehyde oxime",
+        "Acetaldoxime",
+        "Acetaldehyde, oxime",
+        "4-01-00-03121 (Beilstein Handbook Reference)",
+        "AI3-52258",
+        "Aldoxime",
+        "BRN 1209252",
+        "CCRIS 1379",
+        "EINECS 203-479-6",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "HSDB 2662",
+        "Hydroiminoethane",
+        "NSC 4974",
+        "USAF AM-5",
+        "UNII-ME6U10SD7D",
+        "EC 203-479-6",
+        "Acetaldehyde oxime [UN2332]  [Flammable liquid]",
+        "UN2332"
+      ],
+      "comment": [
+        "Mutation Data",
+        "ME6U10SD7D",
+        "0000107299"
+      ],
+      "xref": [
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "http://chem.sis.nlm.nih.gov/chemidplus/"
+        },
+        {
+          "sburl": "http://chem.sis.nlm.nih.gov/chemidplus/rn/0000107299"
+        },
+        {
+          "regid": "0000107299"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              6,
+              7,
+              6,
+              8
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              2,
+              1,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    -0.3257,
+                    0.3257,
+                    -1.088,
+                    1.0862
+                  ],
+                  "y": [
+                    0.2455,
+                    -0.2455,
+                    -0.0701,
+                    0.0701
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 162095462,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "1052",
+          "source_id": {
+            "str": "107921"
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "acetaldehyde oxime",
+        "acetoxime",
+        "aldoxime",
+        "ethanal oxime",
+        "ethylidenehydroxylamine",
+        "usaf AM-5"
+      ],
+      "xref": [
+        {
+          "regid": "107921"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "http://www.chembase.cn"
+        },
+        {
+          "sburl": "http://www.chembase.cn/molecule-107921.html"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    -0.4125,
+                    0,
+                    0.825,
+                    1.2375
+                  ],
+                  "y": [
+                    -0.7145,
+                    0,
+                    0,
+                    0.7145
+                  ],
+                  "style": {
+                    "annotation": [
+                      3
+                    ],
+                    "aid1": [
+                      3
+                    ],
+                    "aid2": [
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 172080047,
+        "version": 11
+      },
+      "source": {
+        "db": {
+          "name": "Comparative Toxicogenomics Database",
+          "source_id": {
+            "str": "C023728"
+          }
+        }
+      },
+      "synonyms": [
+        "acetaldehyde oxime",
+        "107-29-9",
+        "aldoxime",
+        "acetaldoxime",
+        "C023728"
+      ],
+      "comment": [
+        "The Comparative Toxicogenomics Database (CTD) promotes understanding about the effects of environmental chemicals",
+        "on human health by curating chemical-gene/protein interactions and chemical- and gene-disease relationships from",
+        "the literature.  Click on these links to find specific, curated data for this chemical at CTD:",
+        "Genes and Proteins http://ctdbase.org/detail.go?view=gene&type=chem&acc=C023728",
+        "Chemical-Gene Interactions http://ctdbase.org/detail.go?view=ixn&type=chem&acc=C023728",
+        "Pathways http://ctdbase.org/detail.go?view=pathway&type=chem&acc=C023728",
+        "Depositor-supplied synonyms are taken from MeSH (Medical Subject Headings)."
+      ],
+      "xref": [
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "http://ctdbase.org/"
+        },
+        {
+          "sburl": "http://ctdbase.org/detail.go?type=chem&acc=C023728"
+        },
+        {
+          "gene": 43
+        },
+        {
+          "pmid": 22960624
+        },
+        {
+          "taxonomy": 9606
+        },
+        {
+          "regid": "C023728"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "props": [
+            {
+              "urn": {
+                "label": "AutoGenerated",
+                "name": "Structure",
+                "datatype": 1,
+                "version": "2.1",
+                "software": "PubChem",
+                "source": "ncbi.nlm.nih.gov",
+                "release": "2019.06.18"
+              },
+              "value": {
+                "sval": "Deposited Substance chemical structure was generated via Synonym(s) \"acetaldehyde oxime\", \"107-29-9\", \"aldoxime\", \"acetaldoxime\" and Synonym Consistency to be CID 5324279"
+              }
+            }
+          ]
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 249924995,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "NIST",
+          "source_id": {
+            "str": "FZENGILVLUJGJX-NSCUHMNNSA-N"
+          }
+        }
+      },
+      "synonyms": [
+        "(1E)-Ethanal oxime #",
+        "(E)-CH3CH=NOH",
+        "Acetaldehyde oxime",
+        "Acetaldoxime",
+        "Acetaldoxime,syn & anti",
+        "Aldoxime",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "FZENGILVLUJGJX-NSCUHMNNSA-N",
+        "UN 2332",
+        "USAF am-5"
+      ],
+      "xref": [
+        {
+          "regid": "FZENGILVLUJGJX-NSCUHMNNSA-N"
+        },
+        {
+          "dburl": "http://www.nist.gov/srd/nist1a.cfm"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    26,
+                    9,
+                    -8,
+                    -26
+                  ],
+                  "y": [
+                    20,
+                    10,
+                    20,
+                    10
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 319297963,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "15207",
+          "source_id": {
+            "str": "ToxPlanet-MTA3LTI5LTk1MzI0Mjc5"
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "4-01-00-03121 (Beilstein Handbook Reference)",
+        "AI3-52258",
+        "Acetaldehyde oxime",
+        "Acetaldehyde, oxime",
+        "Acetaldoxime",
+        "Aldoxime",
+        "BRN 1209252",
+        "C2-H5-N-O",
+        "CCRIS 1379",
+        "EC 203-479-6",
+        "EINECS 203-479-6",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "HSDB 2662",
+        "Hydroiminoethane",
+        "NA2332",
+        "NSC 4974",
+        "UN2332",
+        "UNII-ME6U10SD7D",
+        "USAF AM-5",
+        "acetaldehydoxim-"
+      ],
+      "xref": [
+        {
+          "regid": "ToxPlanet-MTA3LTI5LTk1MzI0Mjc5"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "https:/www/toxplanet.com"
+        },
+        {
+          "sburl": "https://search.toxplanet.com/CategorySearch.aspx?cas_no=107-29-9"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                5,
+                255
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    2.5369,
+                    3.403,
+                    5.135,
+                    4.269,
+                    4.825,
+                    5.672,
+                    5.445,
+                    4.269,
+                    2
+                  ],
+                  "y": [
+                    -0.06,
+                    -0.56,
+                    -0.56,
+                    -0.06,
+                    -1.0969,
+                    -0.87,
+                    -0.0231,
+                    0.56,
+                    -0.37
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0,
+          "count": {
+            "heavy_atom": 4,
+            "atom_chiral": 0,
+            "atom_chiral_def": 0,
+            "atom_chiral_undef": 0,
+            "bond_chiral": 1,
+            "bond_chiral_def": 1,
+            "bond_chiral_undef": 0,
+            "isotope_atom": 0,
+            "covalent_unit": 1,
+            "tautomers": 3
+          }
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 341142535,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "15745",
+          "source_id": {
+            "str": "4035406-119766994"
+          }
+        }
+      },
+      "synonyms": [
+        "aldoxime"
+      ],
+      "comment": [
+        "This substance has the INFOCHEM hashcode: 4035406-119766994"
+      ],
+      "xref": [
+        {
+          "regid": "4035406-119766994"
+        },
+        {
+          "dburl": "https://link.springer.com"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    -2,
+                    -0.9368,
+                    0.9368,
+                    2
+                  ],
+                  "y": [
+                    -0.4286,
+                    0.3414,
+                    -0.3414,
+                    0.4286
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 348276132,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "811",
+          "source_id": {
+            "str": "HMDB0003656"
+          }
+        }
+      },
+      "synonyms": [
+        "(1E)-acetaldehyde oxime",
+        "(1E)-ethanal oxime",
+        "Acetaldehyde oxime",
+        "Acetaldoxime",
+        "Aldoxime",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "Hydroiminoethane"
+      ],
+      "xref": [
+        {
+          "regid": "HMDB0003656"
+        },
+        {
+          "dburl": "http://www.hmdb.ca"
+        },
+        {
+          "sburl": "http://www.hmdb.ca/metabolites/HMDB0003656"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    17.0935,
+                    16.379,
+                    15.6645,
+                    14.95
+                  ],
+                  "y": [
+                    -14.3122,
+                    -14.7247,
+                    -14.3122,
+                    -14.7247
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324279
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 71166,
+        "version": 3
+      },
+      "source": {
+        "db": {
+          "name": "DTP/NCI",
+          "source_id": {
+            "str": "4974"
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "Acetaldehyde oxime",
+        "Acetaldehyde, oxime",
+        "Acetaldoxime",
+        "Aldoxime",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "NSC-4974",
+        "NSC4974",
+        "Usaf am-5",
+        "WLN: QNU2"
+      ],
+      "comment": [
+        "DTP/NCI DIS cdk 1.4.4.  Release-October 2011.",
+        "Structure Evaluation:Consistent with Molecular Formula.",
+        "Deposition record created from database Chemistry on host DrZZLaptop on Oct 30, 2011"
+      ],
+      "xref": [
+        {
+          "regid": "4974"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "http://dtp.nci.nih.gov/"
+        },
+        {
+          "sburl": "http://dtp.nci.nih.gov/dtpstandard/servlet/dwindex?searchtype=NSC&outputformat=html&searchlist=4974"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    0.75,
+                    1.5,
+                    3,
+                    3.75
+                  ],
+                  "y": [
+                    2.049,
+                    0.75,
+                    0.75,
+                    2.049
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324280
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 127344426,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "826",
+          "source_id": {
+            "str": "148675-EP2272848A1"
+          }
+        }
+      },
+      "synonyms": [
+        "148675-EP2272848A1",
+        "aldoxime"
+      ],
+      "comment": [
+        "Xanthine derivatives as selective HM74A agonists http://worldwide.espacenet.com/publicationDetails/biblio?FT=D&CC=EP&NR=2272848A1&KC=A1",
+        "Patent Number: EP2272848A1",
+        "Publication Date: 2011-01-12",
+        "Classifications: C07D473/04, C07D473/06",
+        "Applicant(s): GLAXOSMITHKLINE LLC [US]",
+        "Hits: Description"
+      ],
+      "xref": [
+        {
+          "regid": "148675-EP2272848A1"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 7863
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 127344427,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "826",
+          "source_id": {
+            "str": "148675-EP2289879A1"
+          }
+        }
+      },
+      "synonyms": [
+        "148675-EP2289879A1",
+        "aldoxime"
+      ],
+      "comment": [
+        "Synthesis of a crytalline form of n-(4-fluorobenzyl)-n-(1-methylpiperidin-4-yl)-n'-(4-(2-methylpropyloxy)phenylmethyl)carbamide tartrate salt http://worldwide.espacenet.com/publicationDetails/biblio?FT=D&CC=EP&NR=2289879A1&KC=A1",
+        "Patent Number: EP2289879A1",
+        "Publication Date: 2011-03-02",
+        "Classifications: C07D211/58",
+        "Applicant(s): ACADIA PHARM INC [US]",
+        "Hits: Description"
+      ],
+      "xref": [
+        {
+          "regid": "148675-EP2289879A1"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 7863
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 250137131,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "NIST",
+          "source_id": {
+            "str": "FZENGILVLUJGJX-UHFFFAOYSA-N"
+          }
+        }
+      },
+      "synonyms": [
+        "(1E)-Ethanal oxime #",
+        "(E)-CH3CH=NOH",
+        "Acetaldehyde oxime",
+        "Acetaldoxime",
+        "Acetaldoxime,syn & anti",
+        "Aldoxime",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "FZENGILVLUJGJX-UHFFFAOYSA-N",
+        "UN 2332",
+        "USAF am-5"
+      ],
+      "xref": [
+        {
+          "regid": "FZENGILVLUJGJX-UHFFFAOYSA-N"
+        },
+        {
+          "dburl": "http://www.nist.gov/srd/nist1a.cfm"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              2,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    53,
+                    35,
+                    18,
+                    0
+                  ],
+                  "y": [
+                    10,
+                    0,
+                    10,
+                    0
+                  ],
+                  "style": {
+                    "annotation": [
+                      1
+                    ],
+                    "aid1": [
+                      2
+                    ],
+                    "aid2": [
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 7863
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 274086494,
+        "version": 2
+      },
+      "source": {
+        "db": {
+          "name": "11834",
+          "source_id": {
+            "str": "J4.062B"
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "Aldoxime"
+      ],
+      "xref": [
+        {
+          "regid": "J4.062B"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "http://doi.org/10.15079/NIKKAJI"
+        },
+        {
+          "sburl": "http://jglobal.jst.go.jp/en/redirect?Nikkaji_No=J4.062B"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "stereo": [
+            {
+              "planar": {
+                "left": 2,
+                "ltop": -1,
+                "lbottom": 1,
+                "right": 4,
+                "rtop": 8,
+                "rbottom": 3,
+                "parity": 2,
+                "type": 1
+              }
+            }
+          ],
+          "charge": 0
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324280
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 319066167,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "15207",
+          "source_id": {
+            "str": "ToxPlanet-MTA3LTI5LTk3ODYz"
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "4-01-00-03121 (Beilstein Handbook Reference)",
+        "AI3-52258",
+        "Acetaldehyde oxime",
+        "Acetaldehyde, oxime",
+        "Acetaldoxime",
+        "Aldoxime",
+        "BRN 1209252",
+        "C2-H5-N-O",
+        "CCRIS 1379",
+        "EC 203-479-6",
+        "EINECS 203-479-6",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "HSDB 2662",
+        "Hydroiminoethane",
+        "NA2332",
+        "NSC 4974",
+        "UN2332",
+        "UNII-ME6U10SD7D",
+        "USAF AM-5",
+        "acetaldehydoxim-"
+      ],
+      "xref": [
+        {
+          "regid": "ToxPlanet-MTA3LTI5LTk3ODYz"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "https:/www/toxplanet.com"
+        },
+        {
+          "sburl": "https://search.toxplanet.com/CategorySearch.aspx?cas_no=107-29-9"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                5,
+                255
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    2.5369,
+                    3.403,
+                    5.135,
+                    4.269,
+                    4.825,
+                    5.672,
+                    5.445,
+                    4.269,
+                    2
+                  ],
+                  "y": [
+                    -0.06,
+                    -0.56,
+                    -0.56,
+                    -0.06,
+                    -1.0969,
+                    -0.87,
+                    -0.0231,
+                    0.56,
+                    -0.37
+                  ],
+                  "style": {
+                    "annotation": [
+                      1
+                    ],
+                    "aid1": [
+                      2
+                    ],
+                    "aid2": [
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "charge": 0,
+          "count": {
+            "heavy_atom": 4,
+            "atom_chiral": 0,
+            "atom_chiral_def": 0,
+            "atom_chiral_undef": 0,
+            "bond_chiral": 1,
+            "bond_chiral_def": 0,
+            "bond_chiral_undef": 1,
+            "isotope_atom": 0,
+            "covalent_unit": 1,
+            "tautomers": 3
+          }
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 7863
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 319297965,
+        "version": 1
+      },
+      "source": {
+        "db": {
+          "name": "15207",
+          "source_id": {
+            "str": "ToxPlanet-MTA3LTI5LTk1MzI0Mjgw"
+          }
+        }
+      },
+      "synonyms": [
+        "107-29-9",
+        "4-01-00-03121 (Beilstein Handbook Reference)",
+        "AI3-52258",
+        "Acetaldehyde oxime",
+        "Acetaldehyde, oxime",
+        "Acetaldoxime",
+        "Aldoxime",
+        "BRN 1209252",
+        "C2-H5-N-O",
+        "CCRIS 1379",
+        "EC 203-479-6",
+        "EINECS 203-479-6",
+        "Ethanal oxime",
+        "Ethylidenehydroxylamine",
+        "HSDB 2662",
+        "Hydroiminoethane",
+        "NA2332",
+        "NSC 4974",
+        "UN2332",
+        "UNII-ME6U10SD7D",
+        "USAF AM-5",
+        "acetaldehydoxim-"
+      ],
+      "xref": [
+        {
+          "regid": "ToxPlanet-MTA3LTI5LTk1MzI0Mjgw"
+        },
+        {
+          "rn": "107-29-9"
+        },
+        {
+          "dburl": "https:/www/toxplanet.com"
+        },
+        {
+          "sburl": "https://search.toxplanet.com/CategorySearch.aspx?cas_no=107-29-9"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "element": [
+              8,
+              7,
+              6,
+              6,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4
+            ],
+            "aid2": [
+              2,
+              9,
+              4,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                5,
+                255
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    2.5369,
+                    2.5369,
+                    4.269,
+                    3.403,
+                    3.959,
+                    4.8059,
+                    4.579,
+                    3.403,
+                    2
+                  ],
+                  "y": [
+                    -0.905,
+                    0.095,
+                    0.095,
+                    0.595,
+                    -0.4419,
+                    -0.215,
+                    0.6319,
+                    1.215,
+                    -1.215
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0,
+          "count": {
+            "heavy_atom": 4,
+            "atom_chiral": 0,
+            "atom_chiral_def": 0,
+            "atom_chiral_undef": 0,
+            "bond_chiral": 1,
+            "bond_chiral_def": 1,
+            "bond_chiral_undef": 0,
+            "isotope_atom": 0,
+            "covalent_unit": 1,
+            "tautomers": 3
+          }
+        },
+        {
+          "id": {
+            "type": 1,
+            "id": {
+              "cid": 5324280
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 5631,
+        "version": 9
+      },
+      "source": {
+        "db": {
+          "name": "KEGG",
+          "source_id": {
+            "str": "C02658"
+          }
+        }
+      },
+      "synonyms": [
+        "Aldoxime",
+        "Aliphatic aldoxime",
+        "C02658"
+      ],
+      "comment": [
+        "Is a reactant of enzyme EC: 1.14.13.-",
+        "Is a reactant of enzyme EC: 1.14.-.-",
+        "Is a reactant of enzyme EC: 4.99.1.5"
+      ],
+      "xref": [
+        {
+          "regid": "C02658"
+        },
+        {
+          "dburl": "http://www.genome.jp/kegg/"
+        },
+        {
+          "sburl": "http://www.genome.jp/dbget-bin/www_bget?cpd:C02658"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "element": [
+              255,
+              8,
+              7,
+              6
+            ],
+            "label": [
+              {
+                "aid": 1,
+                "value": "R"
+              }
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3
+            ],
+            "aid2": [
+              4,
+              3,
+              4
+            ],
+            "order": [
+              1,
+              1,
+              2
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    25.3678,
+                    28.9716,
+                    27.6361,
+                    26.433
+                  ],
+                  "y": [
+                    -21.7367,
+                    -20.9547,
+                    -21.8055,
+                    -21.119
+                  ]
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "sid": {
+        "id": 14717921,
+        "version": 18
+      },
+      "source": {
+        "db": {
+          "name": "ChEBI",
+          "source_id": {
+            "str": "CHEBI:22307"
+          },
+          "date": {
+            "std": {
+              "year": 2017,
+              "month": 3,
+              "day": 13
+            }
+          }
+        }
+      },
+      "synonyms": [
+        "CHEBI:22307",
+        "aldoxime",
+        "aldoximes"
+      ],
+      "xref": [
+        {
+          "regid": "CHEBI:22307"
+        },
+        {
+          "dburl": "http://www.ebi.ac.uk/chebi/"
+        },
+        {
+          "sburl": "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:22307"
+        }
+      ],
+      "compound": [
+        {
+          "id": {
+            "type": 0
+          },
+          "atoms": {
+            "aid": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "element": [
+              253,
+              8,
+              7,
+              6,
+              1
+            ],
+            "label": [
+              {
+                "aid": 1,
+                "value": "R1"
+              }
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "aid2": [
+              4,
+              3,
+              4,
+              5
+            ],
+            "order": [
+              1,
+              1,
+              2,
+              1
+            ]
+          },
+          "coords": [
+            {
+              "type": [
+                1,
+                3
+              ],
+              "aid": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    0.7145,
+                    0.7145,
+                    0,
+                    0,
+                    -0.7145
+                  ],
+                  "y": [
+                    -0.4125,
+                    1.2375,
+                    0.825,
+                    0,
+                    -0.4125
+                  ],
+                  "style": {
+                    "annotation": [
+                      3
+                    ],
+                    "aid1": [
+                      4
+                    ],
+                    "aid2": [
+                      5
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "charge": 0
+        }
+      ]
+    }
+  ]
+}

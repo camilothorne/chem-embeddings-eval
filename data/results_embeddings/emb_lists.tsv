@@ -1,0 +1,11 @@
+ELMo_CheMU	ELMo_PubMed	W2V_CheMU	W2V_PubMed	W2V_Drug	W2V_Mat2Vec	RDKit_Sim
+tacrine	atropine	aspirin	aspirin	pronounced	drug	atropine
+ondansetron	ondansetron	clopidogrel	ondansetron	ultrastructure	drugs	estradiol
+aspirin	sulfamethoxazole	prednisolone	clopidogrel	mimics	aspirin	clopidogrel
+clopidogrel	aspirin	azathioprine	propranolol	surgical	sulfamethoxazole	tacrine
+dipyridamole	tacrine	atropine	placebo	favorable	propranolol	aspirin
+atropine	trimethoprim	nifedipine	tacrine	intestine	trimethoprim	nifedipine
+prednisolone	propranolol	sulfamethoxazole	nifedipine	trained	norfloxacin	ondansetron
+propranolol	prednisolone	dipyridamole	prednisolone	extinct	estradiol	norfloxacin
+trimethoprim	clopidogrel	propranolol	mg	slightly	antibiotics	papaverine
+nifedipine	papaverine	papaverine	topical	combination	nifedipine	trimethoprim

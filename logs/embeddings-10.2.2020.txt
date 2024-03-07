@@ -1,0 +1,75 @@
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/mat2vec/mat2vec/embeddings/pretrained_embeddings
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/biomed-embeddings/PubMed-w2v.bin
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/CheMU-embeddings/patent_w2v.txt
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/drug-embeddings/model_dimension_420.bin
+---------------------------------------------------------------------------------------
+models cover 35769 common words
+---------------------------------------------------------------------------------------
+mat2vec -- PubMed 	embeddings cover 529686 and 2351706 words resp.
+mat2vec -- PubMed 	embeddings share 133806 tokens
+mat2vec -- PubMed 	embeddings overlap by 5.69 %
+mat2vec -- PubMed 	embeddings share 133806 tokens
+---------------------------------------------------------------------------------------
+Drug -- PubMed 	embeddings cover 553195 and 2351706 words resp.
+Drug -- PubMed 	embeddings share 175665 tokens
+Drug -- PubMed 	embeddings overlap by 7.47 %
+Drug -- PubMed 	embeddings share 175665 tokens
+---------------------------------------------------------------------------------------
+CheMU -- PubMed 	embeddings cover 1252586 and 2351706 words resp.
+CheMU -- PubMed 	embeddings share 409377 tokens
+CheMU -- PubMed 	embeddings overlap by 17.41 %
+CheMU -- PubMed 	embeddings share 409377 tokens
+---------------------------------------------------------------------------------------
+CheMU -- mat2vec 	embeddings cover 1252586 and 529686 words resp.
+CheMU -- mat2vec 	embeddings share 92311 tokens
+CheMU -- mat2vec 	embeddings overlap by 17.43 %
+CheMU -- mat2vec 	embeddings share 92311 tokens
+---------------------------------------------------------------------------------------
+CheMU -- Drug 	embeddings cover 1252586 and 553195 words resp.
+CheMU -- Drug 	embeddings share 86223 tokens
+CheMU -- Drug 	embeddings overlap by 15.59 %
+CheMU -- Drug 	embeddings share 86223 tokens
+---------------------------------------------------------------------------------------
+Drug -- mat2vec 	embeddings cover 553195 and 529686 words resp.
+Drug -- mat2vec 	embeddings share 42648 tokens
+Drug -- mat2vec 	embeddings overlap by 8.05 %
+Drug -- mat2vec 	embeddings share 42648 tokens
+---------------------------------------------------------------------------------------
+==>	 learning SVD, reducing to 200 dims
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  mat2vec - PubMed   5.42
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  Drug    - PubMed   4.57
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  CheMU   - PubMed   5.61
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  CheMU   - mat2vec  6.41
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  CheMU   - Drug     5.76
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  Drug    - mat2vec  5.49
+---------------------------------------------------------------------------------------
+t-test:  mat2vec - PubMed vs. Drug    - PubMed  p-value: 0.00 t: 22.07
+---------------------------------------------------------------------------------------
+t-test:  Drug    - PubMed vs. CheMU   - PubMed  p-value: 0.00 t: -25.73
+---------------------------------------------------------------------------------------
+t-test:  CheMU   - PubMed vs. mat2vec -  CheMU  p-value: 0.00 t: -23.47
+---------------------------------------------------------------------------------------
+t-test:  mat2vec - CheMU  vs. CheMU   -   Drug  p-value: 0.00 t: 20.23
+---------------------------------------------------------------------------------------
+t-test:  CheMU   - Drug   vs. mat2vec -   Drug  p-value: 0.00 t: 62.47
+---------------------------------------------------------------------------------------
+norm. co-variance (avg.):  mat2vec - PubMed   0.28
+---------------------------------------------------------------------------------------
+norm. co-variance (avg.):  Drug    - PubMed   0.28
+---------------------------------------------------------------------------------------
+norm. co-variance (avg.):  CheMU   - PubMed   0.29
+---------------------------------------------------------------------------------------
+norm. co-variance (avg.):  CheMU   - mat2vec  0.42
+---------------------------------------------------------------------------------------
+norm. co-variance (avg.):  CheMU   - Drug     0.38
+---------------------------------------------------------------------------------------
+norm. co-variance (avg.):  Drug    - mat2vec  0.46
+---------------------------------------------------------------------------------------
+test corpus: 4943 unique non stop words, overlap with intersection: 3521, tokens
+---------------------------------------------------------------------------------------

@@ -1,0 +1,52 @@
+The primary purpose of this draft is to understand the quality of the chemical patent embeddings
+created in the CheMU project, and to compare them to other word embeddings used in chemistry. To the
+best of my knowledge, no such comparative evaluation exists in this domain. It might contain sufficient
+material for a short paper that we can submit to CLEF 2020 (end of April) main conference track, indedendently
+of the shared task (we have budget to attend CLEF 2020, so why not?). 
+
+I compared the CheMU ELMo and W2V embeddings with: drug W2V embeddings, Pysallo's PudMed W2V embedding, Mat2Vec
+(from the Nature paper) and bioELMo, with which they overlap. See table 2 and figure 1.
+
+Most of the experiments were carried out during weekends, as training and/or applying the models revealed to be quite slow
+(more on this later). Originally, I wanted to prepare not to be lost (co)supervising Jonas, the new intern, who
+will be working with this embeddings to extend the relevancy model on the Reaxys gold set.
+
+As I might want to take this outside and ask for help from academic colleagues (to refine analysis), and because
+I couldn't re-run the CheMU code as is (their NER model requires more than one GPU to train --think of a US$10xhour AWS instance
+running for a couple of days--, and I just got tired of asking them to shere the one they have), I reimplented a simplified
+version of their model, with less parameters and no dependency to GPUs (in fact, it can run on my laptop, although slowly).
+I used AllenNLP (with PyTorch), because this Python3 API was compatible with the CheMU embeddings (Tensorflow is not).
+This is enough to answer two key questions: 
+
+(Q1) can chemical embeddings help ML models learn anything?
+(Q2) what is the influence of the each embedding on performance (F1 scores)?
+
+In the same spirit, I used a (small) open source (for research purposes) chemical NER gold set (the SCAI corpus).
+This corpus is small, and the distribution of entities in each subset (train, dev, test) is very different. See table 1.  
+
+There are some findings that are of interest to us:
+
+A) Not surprisingly, in most cases, the model failed to learn anything. If you don't use pre-trained embeddings / transfer learning, 
+performance is super low. The same goes for the drug embeddings, Mat2Vec and Pysallo. But, surprisingly once you start using CheMU 
+W2V and ELMo embeddings or bioELMo, the model does indeed learn something (~70% F1 score on a crappy gold standard!).
+Combining embeddings using linear transforms to deal with OVVs didn't help either. Large contextualized embeddings / language models / 
+transfer learning  make it possible to learn reasonably accurate models (that... generalize) on quite sparse training data!
+See table 9.
+
+B) Similarity analysis shows that embedding similarity correlates only very slightly, if at all, with the molecular similarity
+of compound names. See table 8 and figure 2, and figures 10 and 11.
+
+C) W2V embeddings are more aware of the semantic relatedness of words, whereas ELMo / contextualized embeddings tend to focus
+more on morphological and morphosyntatic similarity --words that play similar roles in sentences, and with similar stems and
+(derivational) morphology--. See tables 4 to 7.
+
+D) The spaces of the embeddings, even when trained over overlapping corpora, are not very homogenous. See figures 4 to 7.
+
+E) I also carried out (not in the paper) some benchmarking by measuring the prediction speed of my simple NER model: 1 setence x CPU x minute
+(in my machine). If we were to deploy it "as is" on a 36-CPU server (as the one used for the POCs), this means 36 sentences x minute or
+1 page x minute (and hence 100 minutes or ~1.5H for a complete patent). That said, ~70% F1 score is... LeadMine's (but I didn't apply
+LeadMine to my data to measure, although I may). I also tried using a Tesla T4 GPU (which is e.g., the basic AWS GPU system). It proved
+equivalent to my 8 CPUs (which means that 4 GPUs can work as fast as 36 CPUs, on average). The main source of complexity (and low running time) 
+was / is the ...ELMo embedding, composed of two biLSTM layers of 512 units. In my opinion, we'll probably need to wait a couple of years
+until hardware / GPU price goes down sufficiently before putting such models in production (unless there exists some clever optimization
+I don't know of).

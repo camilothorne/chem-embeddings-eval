@@ -1,0 +1,73 @@
+{
+  "dataset_reader": {
+    "type": "cam_conll2003",
+    "tag_label": "ner",
+    "token_indexers": {
+      "token_characters": {
+        "type": "characters"
+      },
+      "elmo": {
+        "type": "elmo_characters"
+     }
+    }
+  },
+  "train_data_path": "/Users/thorne1/BioNLP-frameworks/NER-data/Klinger-data/conll/train_bio.conll",
+  "validation_data_path": "/Users/thorne1/BioNLP-frameworks/NER-data/Klinger-data/conll/dev_bio_biosem.conll",
+  "test_data_path": "/Users/thorne1/BioNLP-frameworks/NER-data/Klinger-data/conll/test_bio.conll",
+  "evaluate_on_test": true,
+  "model": {
+    "type": "crf_tagger",
+    "text_field_embedder": {
+      "token_embedders": {
+        "elmo":{
+            "type": "elmo_token_embedder",
+         	"options_file": "/Users/thorne1/BioNLP-frameworks/biomed-embeddings/elmo_2x4096_512_2048cnn_2xhighway_options.json",
+         	"weight_file":  "/Users/thorne1/BioNLP-frameworks/biomed-embeddings/elmo_2x4096_512_2048cnn_2xhighway_weights_PubMed_only.hdf5",
+            "do_layer_norm": false,
+            "dropout": 0.0
+         },
+        "token_characters": {
+            "type": "character_encoding",
+            "embedding": {
+            "embedding_dim": 25
+            },
+            "encoder": {
+            "type": "gru",
+            "input_size": 25,
+            "hidden_size": 80,
+            "num_layers": 2,
+            "dropout": 0.25,
+            "bidirectional": true
+            }
+        }
+      }
+    },
+    "encoder": {
+      "type": "gru",
+      "input_size": 1184, 
+      "hidden_size": 300,
+      "num_layers": 2,
+      "dropout": 0.5,
+      "bidirectional": true
+    },
+    "regularizer": [
+      [
+        "transitions$",
+        {
+          "type": "l2",
+          "alpha": 0.01
+        }
+      ]
+    ]
+  },
+  "iterator": {
+    "type": "basic",
+    "batch_size": 16
+  },
+  "trainer": {
+    "optimizer": "adam",
+    "num_epochs": 50,
+    "patience": 5,
+    "cuda_device": -1
+  }
+}

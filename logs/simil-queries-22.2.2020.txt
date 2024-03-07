@@ -1,0 +1,159 @@
+=============
+hydroxymethyl
+=============
+
+==>	 overlap matrix
+
+	W2V CheMU	W2V PubMed	W2V Drug	W2V Mat2Vec	ELMo CheMU	ELMo PubMed
+W2V CheMU	1.0	0.33	0.05	0.43	0.33	0.43
+W2V PubMed	nan	1.0	0.18	0.33	0.25	0.25
+W2V Drug	nan	nan	1.0	0.05	0.05	0.05
+W2V Mat2Vec	nan	nan	nan	1.0	0.33	0.43
+ELMo CheMU	nan	nan	nan	nan	1.0	0.82
+ELMo PubMed	nan	nan	nan	nan	nan	1.0
+
+ & W2V CheMU & W2V PubMed & W2V Drug & W2V Mat2Vec & ELMo CheMU & ELMo PubMed\\ 
+W2V CheMU & 1.0 & 0.33 & 0.05 & 0.43 & 0.33 & 0.43\\ 
+W2V PubMed & --- & 1.0 & 0.18 & 0.33 & 0.25 & 0.25\\ 
+W2V Drug & --- & --- & 1.0 & 0.05 & 0.05 & 0.05\\ 
+W2V Mat2Vec & --- & --- & --- & 1.0 & 0.33 & 0.43\\ 
+ELMo CheMU & --- & --- & --- & --- & 1.0 & 0.82\\ 
+ELMo PubMed & --- & --- & --- & --- & --- & 1.0\\ 
+
+==>	 accuracy matrix
+
+	W2V CheMU	W2V PubMed	W2V Drug	W2V Mat2Vec	ELMo CheMU	ELMo PubMed
+W2V CheMU	1.0	0.0	0.0	0.2	0.2	0.3
+W2V PubMed	nan	1.0	0.0	0.0	0.0	0.0
+W2V Drug	nan	nan	1.0	0.0	0.0	0.0
+W2V Mat2Vec	nan	nan	nan	1.0	0.2	0.1
+ELMo CheMU	nan	nan	nan	nan	1.0	0.2
+ELMo PubMed	nan	nan	nan	nan	nan	1.0
+
+ & W2V CheMU & W2V PubMed & W2V Drug & W2V Mat2Vec & ELMo CheMU & ELMo PubMed\\ 
+W2V CheMU & 1.0 & 0.0 & 0.0 & 0.2 & 0.2 & 0.3\\ 
+W2V PubMed & --- & 1.0 & 0.0 & 0.0 & 0.0 & 0.0\\ 
+W2V Drug & --- & --- & 1.0 & 0.0 & 0.0 & 0.0\\ 
+W2V Mat2Vec & --- & --- & --- & 1.0 & 0.2 & 0.1\\ 
+ELMo CheMU & --- & --- & --- & --- & 1.0 & 0.2\\ 
+ELMo PubMed & --- & --- & --- & --- & --- & 1.0\\ 
+
+==>	 agreement matrix
+
+	W2V CheMU	W2V PubMed	W2V Drug	W2V Mat2Vec	ELMo CheMU	ELMo PubMed
+W2V CheMU	1.0	0.0	0.0	0.2	0.2	0.3
+W2V PubMed	nan	1.0	0.0	0.0	0.0	0.0
+W2V Drug	nan	nan	1.0	0.0	0.0	0.0
+W2V Mat2Vec	nan	nan	nan	1.0	0.2	0.1
+ELMo CheMU	nan	nan	nan	nan	1.0	0.2
+ELMo PubMed	nan	nan	nan	nan	nan	1.0
+
+ & W2V CheMU & W2V PubMed & W2V Drug & W2V Mat2Vec & ELMo CheMU & ELMo PubMed\\ 
+W2V CheMU & 1.0 & 0.0 & 0.0 & 0.2 & 0.2 & 0.3\\ 
+W2V PubMed & --- & 1.0 & 0.0 & 0.0 & 0.0 & 0.0\\ 
+W2V Drug & --- & --- & 1.0 & 0.0 & 0.0 & 0.0\\ 
+W2V Mat2Vec & --- & --- & --- & 1.0 & 0.2 & 0.1\\ 
+ELMo CheMU & --- & --- & --- & --- & 1.0 & 0.2\\ 
+ELMo PubMed & --- & --- & --- & --- & --- & 1.0\\ 
+
+==========
+ibuprofen
+==========
+
+==>	 overlap matrix
+
+	W2V CheMU	W2V PubMed	W2V Drug	W2V Mat2Vec	ELMo CheMU	ELMo PubMed
+W2V CheMU	1.0	0.33	0.25	0.25	0.43	0.54
+W2V PubMed	nan	1.0	0.25	0.18	0.43	0.54
+W2V Drug	nan	nan	1.0	0.18	0.25	0.18
+W2V Mat2Vec	nan	nan	nan	1.0	0.11	0.33
+ELMo CheMU	nan	nan	nan	nan	1.0	0.54
+ELMo PubMed	nan	nan	nan	nan	nan	1.0
+
+ & W2V CheMU & W2V PubMed & W2V Drug & W2V Mat2Vec & ELMo CheMU & ELMo PubMed\\ 
+W2V CheMU & 1.0 & 0.33 & 0.25 & 0.25 & 0.43 & 0.54\\ 
+W2V PubMed & --- & 1.0 & 0.25 & 0.18 & 0.43 & 0.54\\ 
+W2V Drug & --- & --- & 1.0 & 0.18 & 0.25 & 0.18\\ 
+W2V Mat2Vec & --- & --- & --- & 1.0 & 0.11 & 0.33\\ 
+ELMo CheMU & --- & --- & --- & --- & 1.0 & 0.54\\ 
+ELMo PubMed & --- & --- & --- & --- & --- & 1.0\\ 
+
+==>	 accuracy matrix
+
+	W2V CheMU	W2V PubMed	W2V Drug	W2V Mat2Vec	ELMo CheMU	ELMo PubMed
+W2V CheMU	1.0	0.1	0.2	0.0	0.0	0.0
+W2V PubMed	nan	1.0	0.1	0.0	0.1	0.2
+W2V Drug	nan	nan	1.0	0.0	0.1	0.0
+W2V Mat2Vec	nan	nan	nan	1.0	0.1	0.2
+ELMo CheMU	nan	nan	nan	nan	1.0	0.1
+ELMo PubMed	nan	nan	nan	nan	nan	1.0
+
+ & W2V CheMU & W2V PubMed & W2V Drug & W2V Mat2Vec & ELMo CheMU & ELMo PubMed\\ 
+W2V CheMU & 1.0 & 0.1 & 0.2 & 0.0 & 0.0 & 0.0\\ 
+W2V PubMed & --- & 1.0 & 0.1 & 0.0 & 0.1 & 0.2\\ 
+W2V Drug & --- & --- & 1.0 & 0.0 & 0.1 & 0.0\\ 
+W2V Mat2Vec & --- & --- & --- & 1.0 & 0.1 & 0.2\\ 
+ELMo CheMU & --- & --- & --- & --- & 1.0 & 0.1\\ 
+ELMo PubMed & --- & --- & --- & --- & --- & 1.0\\ 
+
+==>	 agreement matrix
+
+	W2V CheMU	W2V PubMed	W2V Drug	W2V Mat2Vec	ELMo CheMU	ELMo PubMed
+W2V CheMU	1.0	0.1	0.2	0.0	0.0	0.0
+W2V PubMed	nan	1.0	0.1	0.0	0.1	0.2
+W2V Drug	nan	nan	1.0	0.0	0.1	0.0
+W2V Mat2Vec	nan	nan	nan	1.0	0.1	0.2
+ELMo CheMU	nan	nan	nan	nan	1.0	0.1
+ELMo PubMed	nan	nan	nan	nan	nan	1.0
+
+ & W2V CheMU & W2V PubMed & W2V Drug & W2V Mat2Vec & ELMo CheMU & ELMo PubMed\\ 
+W2V CheMU & 1.0 & 0.1 & 0.2 & 0.0 & 0.0 & 0.0\\ 
+W2V PubMed & --- & 1.0 & 0.1 & 0.0 & 0.1 & 0.2\\ 
+W2V Drug & --- & --- & 1.0 & 0.0 & 0.1 & 0.0\\ 
+W2V Mat2Vec & --- & --- & --- & 1.0 & 0.1 & 0.2\\ 
+ELMo CheMU & --- & --- & --- & --- & 1.0 & 0.1\\ 
+ELMo PubMed & --- & --- & --- & --- & --- & 1.0\\ 
+
+==>	 molecular matrix computation
+
+--------------------
+ibuprofen -- molecular similarity
+--------------------
+atropine :	 0.4776500638569604
+scopolamine :	 0.41739130434782606
+estradiol :	 0.3625154130702836
+clopidogrel :	 0.28079242032730406
+tacrine :	 0.2781316348195329
+aspirin :	 0.2646048109965636
+nifedipine :	 0.2640625
+ondansetron :	 0.23422159887798036
+norfloxacin :	 0.21821036106750394
+papaverine :	 0.21271393643031786
+trimethoprim :	 0.2010443864229765
+prednisolone :	 0.19161676646706588
+propranolol :	 0.18181818181818182
+azathioprine :	 0.17657657657657658
+dipyridamole :	 0.17391304347826086
+sulfamethoxazole :	 0.17204301075268819
+glucosamine :	 0.1592356687898089
+mg :	 0.0
+metavanadate :	 0.0
+
+==>	 molecular matrix computation
+
+--------------------
+hydroxymethyl -- molecular similarity
+--------------------
+acetate :	 0.25
+cellulose :	 0.010610079575596816
+yl :	 0.008213552361396304
+pyridine :	 0.0
+oxy :	 0.0
+coenzyme :	 0.0
+acetyl :	 0.0
+dimethyl :	 0.0
+octyl :	 0.0
+pyrimidine :	 0.0
+methylene :	 0.0
+anthracene :	 0.0
+

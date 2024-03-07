@@ -1,0 +1,11 @@
+CheMU W2V	PubMed W2V	Drug W2V	Mat2Vec W2V	CheMU ELMo	PubMed ELMo
+methyl	phenyl	coenzyme	methyl	methyl	methyl
+phenyl	moiety	cyclohexyl	acetyl	yl	monomethyl
+cyclohexyl	substituents	metabolite	methylene	cyclohexyl	cyclohexyl
+ethyl	cyclohexyl	metabolites	ethyl	monomethyl	dimethyl
+isopropyl	pyridine	carboxylic	amino	anthracene	isopropyl
+cellulose	acetyl	inhibitor	isopropyl	dimethyl	octyl
+octyl	methyl	biosynthesis	phenyl	phenyl	ethyl
+acetyl	carboxylic	competitive	dimethyl	octyl	phenyl
+oxy	isopropyl	pyrimidine	cyclohexyl	anthracenes	anthracene
+ester	derivatives	pyridine	acetate	isopropyl	yl

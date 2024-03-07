@@ -1,0 +1,126 @@
+--------------------
+ibuprofen -- ELMo CheMU (top 10 most similar)
+--------------------
+tacrine :	 0.6843023300170898
+ondansetron :	 0.6592272520065308
+aspirin :	 0.6502557396888733
+clopidogrel :	 0.6142418384552002
+dipyridamole :	 0.6072449684143066
+atropine :	 0.6004369258880615
+prednisolone :	 0.5951927900314331
+propranolol :	 0.5912737846374512
+trimethoprim :	 0.565933883190155
+nifedipine :	 0.552627444267273
+--------------------
+ibuprofen -- ELMo PubMed (top 10 most similar)
+--------------------
+atropine :	 0.6464731097221375
+ondansetron :	 0.6209861636161804
+sulfamethoxazole :	 0.6166408658027649
+aspirin :	 0.5951871275901794
+tacrine :	 0.5944511294364929
+trimethoprim :	 0.5891038775444031
+propranolol :	 0.5840087532997131
+prednisolone :	 0.5616590976715088
+clopidogrel :	 0.5432589650154114
+papaverine :	 0.5377293229103088
+--------------------
+ibuprofen -- CheMU W2V (top 10 most similar)
+--------------------
+aspirin :	 0.7960366606712341
+clopidogrel :	 0.6618723273277283
+prednisolone :	 0.6372376680374146
+azathioprine :	 0.5901272296905518
+atropine :	 0.5831409692764282
+nifedipine :	 0.5682304501533508
+sulfamethoxazole :	 0.567690372467041
+dipyridamole :	 0.5662531852722168
+propranolol :	 0.5584840178489685
+papaverine :	 0.5548927783966064
+--------------------
+ibuprofen -- PubMed W2V (top 10 most similar)
+--------------------
+aspirin :	 0.708030104637146
+ondansetron :	 0.562258243560791
+clopidogrel :	 0.5543416738510132
+propranolol :	 0.5505421757698059
+placebo :	 0.5393533110618591
+tacrine :	 0.5385196208953857
+nifedipine :	 0.5319792032241821
+prednisolone :	 0.5283535122871399
+mg :	 0.5205226540565491
+topical :	 0.5178064107894897
+--------------------
+ibuprofen -- Drug W2V (top 10 most similar)
+--------------------
+pronounced :	 0.5969297885894775
+ultrastructure :	 0.5488220453262329
+mimics :	 0.5324786901473999
+surgical :	 0.527396023273468
+favorable :	 0.5096758008003235
+intestine :	 0.5070832967758179
+trained :	 0.5064342617988586
+extinct :	 0.5030355453491211
+slightly :	 0.5016498565673828
+combination :	 0.5014024972915649
+--------------------
+ibuprofen -- Mat2Vec W2V (top 10 most similar)
+--------------------
+drug :	 0.7270134687423706
+drugs :	 0.6847521066665649
+aspirin :	 0.6684220433235168
+sulfamethoxazole :	 0.6679688692092896
+propranolol :	 0.6558179259300232
+trimethoprim :	 0.6017993688583374
+norfloxacin :	 0.5965393781661987
+estradiol :	 0.5857250690460205
+antibiotics :	 0.583034873008728
+nifedipine :	 0.5593608021736145
+--------------------
+ibuprofen -- molecular similarity (DICE on fingerprints)
+--------------------
+atropine :	 0.4776500638569604
+estradiol :	 0.3625154130702836
+clopidogrel :	 0.28079242032730406
+tacrine :	 0.2781316348195329
+aspirin :	 0.2646048109965636
+nifedipine :	 0.2640625
+ondansetron :	 0.23422159887798036
+norfloxacin :	 0.21821036106750394
+papaverine :	 0.21271393643031786
+trimethoprim :	 0.2010443864229765
+prednisolone :	 0.19161676646706588
+propranolol :	 0.18181818181818182
+azathioprine :	 0.17657657657657658
+dipyridamole :	 0.17391304347826086
+sulfamethoxazole :	 0.17204301075268819
+--------------------
+==>	 overlap matrix (DICE similarity)
+--------------------
+	ELMo_CheMU	ELMo_PubMed	W2V_CheMU	W2V_PubMed	W2V_Drug	W2V_Mat2Vec
+ELMo_CheMU	1.0	0.67	0.54	0.54	0.0	0.25
+ELMo_PubMed	nan	1.0	0.54	0.43	0.0	0.25
+W2V_CheMU	nan	nan	1.0	0.33	0.0	0.25
+W2V_PubMed	nan	nan	nan	1.0	0.0	0.18
+W2V_Drug	nan	nan	nan	nan	1.0	0.0
+W2V_Mat2Vec	nan	nan	nan	nan	nan	1.0
+--------------------
+==>	 accuracy matrix (matching accuracy)
+--------------------
+	ELMo_CheMU	ELMo_PubMed	W2V_CheMU	W2V_PubMed	W2V_Drug	W2V_Mat2Vec
+ELMo_CheMU	1.0	0.1	0.0	0.1	0.0	0.2
+ELMo_PubMed	nan	1.0	0.1	0.2	0.0	0.1
+W2V_CheMU	nan	nan	1.0	0.1	0.0	0.0
+W2V_PubMed	nan	nan	nan	1.0	0.0	0.0
+W2V_Drug	nan	nan	nan	nan	1.0	0.0
+W2V_Mat2Vec	nan	nan	nan	nan	nan	1.0
+--------------------
+==>	 agreement matrix (average Cohen's Kappa)
+--------------------
+	ELMo_CheMU	ELMo_PubMed	W2V_CheMU	W2V_PubMed	W2V_Drug	W2V_Mat2Vec
+ELMo_CheMU	1.0	0.1	0.0	0.1	0.0	0.2
+ELMo_PubMed	nan	1.0	0.1	0.2	0.0	0.1
+W2V_CheMU	nan	nan	1.0	0.1	0.0	0.0
+W2V_PubMed	nan	nan	nan	1.0	0.0	0.0
+W2V_Drug	nan	nan	nan	nan	1.0	0.0
+W2V_Mat2Vec	nan	nan	nan	nan	nan	1.0

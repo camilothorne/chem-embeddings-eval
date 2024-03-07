@@ -1,0 +1,16 @@
+\begin{tabular}{llllll}
+\toprule
+        CheMU W2V &    PubMed W2V &          Drug W2V &       Mat2Vec W2V &    CheMU ELMo &       PubMed ELMo \\
+\midrule
+          aspirin &       aspirin &           aspirin &              drug &       tacrine &          atropine \\
+      clopidogrel &   ondansetron &       norfloxacin &             drugs &   ondansetron &       ondansetron \\
+     prednisolone &   clopidogrel &       glucosamine &           aspirin &       aspirin &  sulfamethoxazole \\
+     azathioprine &   propranolol &      metavanadate &  sulfamethoxazole &   clopidogrel &           tacrine \\
+         atropine &       placebo &       clopidogrel &       propranolol &     cisplatin &           aspirin \\
+       nifedipine &       tacrine &  antiinflammatory &      trimethoprim &  dipyridamole &      trimethoprim \\
+ sulfamethoxazole &    nifedipine &                mg &       norfloxacin &   scopolamine &       propranolol \\
+     dipyridamole &  prednisolone &      dipyridamole &         estradiol &      atropine &      prednisolone \\
+      propranolol &            mg &         ingestion &       antibiotics &  prednisolone &       clopidogrel \\
+       papaverine &       topical &       propranolol &        nifedipine &   propranolol &        nifedipine \\
+\bottomrule
+\end{tabular}

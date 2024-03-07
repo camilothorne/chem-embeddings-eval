@@ -1,0 +1,57 @@
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/mat2vec/mat2vec/embeddings/pretrained_embeddings
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/biomed-embeddings/PubMed-w2v.bin
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/CheMU-embeddings/patent_w2v.txt
+==>	 loading embedding	 /Users/thorne1/BioNLP-frameworks/drug-embeddings/model_dimension_420.bin
+---------------------------------------------------------------------------------------
+models cover 35769 common words
+---------------------------------------------------------------------------------------
+PubMed embedding covers mat2vec by 25.26 %
+---------------------------------------------------------------------------------------
+PubMed embedding covers CheMU by 32.68 %
+---------------------------------------------------------------------------------------
+PubMed embedding covers Drug by 31.75 %
+---------------------------------------------------------------------------------------
+==>	 learning SVD, reducing to 200 dims
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  mat2vec - PubMed   5.43
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  Drug    - PubMed   4.52
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  CheMU   - PubMed   5.60
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  CheMU   - mat2vec  6.38
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  CheMU   - Drug     5.68
+---------------------------------------------------------------------------------------
+Euclidian distance (avg.):  Drug    - mat2vec  5.41
+---------------------------------------------------------------------------------------
+t-test:  mat2vec - PubMed vs. Drug    - PubMed  p-value: 0.00 t: 24.44
+---------------------------------------------------------------------------------------
+t-test:  Drug    - PubMed vs. CheMU   - PubMed  p-value: 0.00 t: -27.70
+---------------------------------------------------------------------------------------
+t-test:  CheMU   - PubMed vs. mat2vec -  CheMU  p-value: 0.00 t: -22.93
+---------------------------------------------------------------------------------------
+t-test:  mat2vec - CheMU  vs. CheMU   -   Drug  p-value: 0.00 t: 22.43
+---------------------------------------------------------------------------------------
+t-test:  CheMU   - Drug   vs. mat2vec -   Drug  p-value: 0.00 t: 61.59
+---------------------------------------------------------------------------------------
+avg. correlation:  mat2vec - PubMed   0.28
+---------------------------------------------------------------------------------------
+avg. correlation:  Drug    - PubMed   0.30
+---------------------------------------------------------------------------------------
+avg. correlation:  CheMU   - PubMed   0.29
+---------------------------------------------------------------------------------------
+avg. correlation:  CheMU   - mat2vec  0.42
+---------------------------------------------------------------------------------------
+avg. correlation:  CheMU   - Drug     0.40
+---------------------------------------------------------------------------------------
+avg. correlation:  Drug    - mat2vec  0.48
+---------------------------------------------------------------------------------------
+==>	 restricting embedding to intersection
+==>	 restricting embedding to intersection
+==>	 restricting embedding to intersection
+==>	 restricting embedding to intersection
+==>	 saving to ../data/	 mat2vec_inter.bin
+==>	 saving to ../data/	 pubmed_inter.bin
+==>	 saving to ../data/	 chemu_inter.bin
+==>	 saving to ../data/	 drug_inter.bin
