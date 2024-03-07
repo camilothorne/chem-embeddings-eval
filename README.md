@@ -1,29 +1,21 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Codebase for the experiments of:
+```bash
+@article{DBLP:journals/corr/abs-2010-12912,
+  author       = {Camilo Thorne and
+                  Saber A. Akhondi},
+  title        = {Word Embeddings for Chemical Patent Natural Language Processing},
+  journal      = {CoRR},
+  volume       = {abs/2010.12912},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2010.12912},
+  eprinttype   = {arXiv},
+  eprint       = {2010.12912},
+  timestamp    = {Mon, 02 Nov 2020 18:17:09 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2010-12912.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+For the PDF, see: https://arxiv.org/abs/2010.12912
